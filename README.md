@@ -5,82 +5,79 @@
 </p><p align="center">
   A lightweight desktop authentication interface built with Python & Tkinter.
 </p><p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Tkinter-GUI-00A86B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Desktop-App-4ecdc4?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/Rg100152/Pullang?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Tkinter-GUI-4ecdc4?style=for-the-badge" alt="Tkinter">
+  <img src="https://img.shields.io/badge/Desktop-Application-101a30?style=for-the-badge" alt="Desktop Application">
+  <img src="https://img.shields.io/github/license/Rg100152/Pullang?style=for-the-badge" alt="License">
 </p>---
 
-✦ Overview
+⚡ About
 
-Pullang is a lightweight desktop Customer Login GUI developed using Python's built-in Tkinter library.
+Pullang is a lightweight desktop Customer Login GUI developed with Python's built-in Tkinter framework.
 
-The application combines a dark modern interface with teal accents, geometric background elements, an animated login card and interactive form controls.
+The project focuses on creating a clean and modern authentication interface with a dark navy background, teal accents, geometric graphics and a simple card entrance animation.
 
-It is designed as a simple foundation for experimenting with desktop authentication interfaces and Tkinter GUI development.
-
-«Pullang — Clean desktop UI with a modern login experience.»
+It is designed as a foundation for learning and building Python desktop GUI applications.
 
 ---
 
 ✨ Features
 
-- 🔐 Customer login interface
-- 📧 Email input field
+- 🔐 Customer Login interface
+- 📧 Email input
 - 🔑 Password input with masking
 - ☑️ Remember Me checkbox
 - 🔄 Forgot Password interaction
-- 🚀 Animated login-card entrance
-- 🎨 Dark navy UI
-- 💎 Teal/cyan accent color system
-- 🔺 Geometric background artwork
-- 🖱️ Login button hover effect
-- ✅ Basic empty-field validation
-- 💬 Success and error message dialogs
-- 🧹 Automatic form clearing after successful login
-- 🪶 Lightweight Tkinter implementation
-- 📦 No external Python GUI framework required
+- 🎬 Login-card entrance animation
+- 🎨 Dark modern interface
+- 💎 Teal accent design
+- 🔺 Geometric background graphics
+- 🖱️ Interactive login button
+- ✅ Empty-field validation
+- 💬 Success/error dialogs
+- 🧹 Automatic input clearing
+- 🪶 Lightweight implementation
+- 📦 Minimal dependencies
 
 ---
 
-🖥️ Interface
-
-The application opens as a compact 400 × 650 desktop window.
+🖥️ UI Layout
 
 ┌──────────────────────────────────────┐
 │                                      │
-│       ╔════════════════════════╗     │
-│       ║    CUSTOMER LOGIN      ║     │
-│       ╠════════════════════════╣     │
-│       ║                        ║     │
-│       ║   ✉  Email             ║     │
-│       ║  ────────────────────  ║     │
-│       ║                        ║     │
-│       ║   🔒 Password          ║     │
-│       ║  ────────────────────  ║     │
-│       ║                        ║     │
-│       ║ ☑ Remember me          ║     │
-│       ║              Forgot?   ║     │
-│       ║                        ║     │
-│       ║      ┌──────────┐      ║     │
-│       ║      │   LOGIN  │      ║     │
-│       ║      └──────────┘      ║     │
-│       ╚════════════════════════╝     │
+│       ┌────────────────────────┐     │
+│       │    CUSTOMER LOGIN      │     │
+│       ├────────────────────────┤     │
+│       │                        │     │
+│       │   ✉  Email             │     │
+│       │  ────────────────────  │     │
+│       │                        │     │
+│       │   🔒 Password          │     │
+│       │  ────────────────────  │     │
+│       │                        │     │
+│       │ ☑ Remember me          │     │
+│       │              Forgot?   │     │
+│       │                        │     │
+│       │      ┌──────────┐      │     │
+│       │      │  LOGIN   │      │     │
+│       │      └──────────┘      │     │
+│       │                        │     │
+│       └────────────────────────┘     │
 │                                      │
 └──────────────────────────────────────┘
 
 ---
 
-🛠️ Technology Stack
+🛠️ Tech Stack
 
 Technology| Purpose
 Python 3| Application logic
 Tkinter| Desktop GUI
-Canvas| Custom UI graphics
-messagebox| Login/error dialogs
-math| Supporting Python functionality
+Canvas| Custom graphics and UI
+messagebox| Dialog messages
+StringVar / IntVar| Form state management
 
-Tkinter is included with standard Python installations on most desktop platforms, so the project has minimal dependencies.
+No external GUI framework is required.
 
 ---
 
@@ -88,10 +85,11 @@ Tkinter is included with standard Python installations on most desktop platforms
 
 Pullang/
 │
-├── main.py
-└── README.md
+├── Python source file
+├── README.md
+└── LICENSE
 
-«Rename "main.py" in this section if your Python source file has a different filename in the repository.»
+The application is designed to remain lightweight and easy to understand.
 
 ---
 
@@ -99,31 +97,29 @@ Pullang/
 
 - Python 3.x
 - Tkinter
-- Desktop operating system
+- Windows / Linux / macOS desktop environment
 
-Check Python
+Check Python:
 
 python3 --version
 
-Check Tkinter
+Check Tkinter:
 
 python3 -m tkinter
-
-If a small Tkinter test window appears, Tkinter is available.
 
 ---
 
 🚀 Installation
 
-1. Clone the repository
+Clone the repository
 
 git clone https://github.com/Rg100152/Pullang.git
 
-2. Enter the project
+Enter the project directory
 
 cd Pullang
 
-3. Run the application
+Run the application
 
 python3 main.py
 
@@ -131,164 +127,146 @@ On Windows:
 
 python main.py
 
+«Replace "main.py" with the actual Python filename if your repository uses a different filename.»
+
 ---
 
 🎬 Animation
 
-Pullang includes a simple entrance animation for the login card.
+Pullang includes a simple card entrance animation.
 
-The card initially starts below its final position and progressively moves upward until it reaches its target position.
+The login card starts below its final position and gradually moves upward using Tkinter's event scheduler.
 
-The animation is implemented using Tkinter's:
+self.after(16, self.animate_card)
 
-after()
-
-method, avoiding external animation libraries.
+This keeps the application dependency-free while providing a smoother UI experience.
 
 ---
 
-🎨 Color Palette
+🎨 Color System
 
-The interface uses a dark navy and teal visual system.
+Pullang uses a dark navy + teal visual identity.
 
-Component| Color
+Element| Value
 Background| "#0b1b36"
 Card| "#101a30"
 Primary Accent| "#4ecdc4"
 Secondary Text| "#aeb5c2"
 Header Text| "#101a30"
 
-The colors can be customized from the constants near the beginning of the Python source.
+The colors are defined near the beginning of the Python source and can be customized easily.
 
 ---
 
-🔐 Login Behaviour
+🔐 Login Flow
 
-The current application demonstrates frontend-style login behaviour inside a desktop GUI.
+The current login functionality is intended for demonstration purposes.
 
-When the user presses LOGIN:
+Workflow
 
-1. Email and password values are collected.
-2. Empty fields are checked.
-3. An error dialog appears if required fields are missing.
-4. Otherwise, a success dialog is displayed.
-5. The input fields are cleared.
+User enters email
+       ↓
+User enters password
+       ↓
+     LOGIN
+       ↓
+Check empty fields
+   ↙          ↘
+Empty       Filled
+ ↓             ↓
+Error       Success
+Dialog      Dialog
+               ↓
+        Clear input fields
 
-Important
-
-This project does not currently authenticate against a real server or database.
-
-The login is a UI/demo implementation.
+The application does not currently connect to a real authentication server or database.
 
 ---
 
 🔑 Forgot Password
 
-The Forgot Password? control currently displays an informational dialog:
+The Forgot Password? option currently displays an informational dialog.
 
-Password reset link sent!
-
-It is a simulated interaction and does not send an actual email or reset a real account password.
+It is a simulated UI interaction and does not send an actual password-reset email.
 
 ---
 
 🧩 Customization
 
-You can modify the application's visual identity by changing:
+The primary visual settings can be changed through the color constants:
 
 BG_COLOR = (11, 27, 54)
 CARD_COLOR = (16, 26, 48)
 TEAL_COLOR = (78, 205, 196)
 TEXT_GREY = (174, 181, 194)
 
-You can also customize:
+You can customize:
 
-- Window dimensions
-- Card dimensions
-- Animation speed
+- Window size
+- Card size
+- Colors
 - Fonts
-- Button appearance
+- Animation speed
+- Button design
 - Background geometry
-- Input fields
 - Dialog messages
+- Input behaviour
 
 ---
 
 🔮 Roadmap
 
-Possible future improvements:
-
-- [ ] Real authentication backend
-- [ ] SQLite database integration
+- [ ] Real authentication system
+- [ ] SQLite database
 - [ ] User registration
-- [ ] Password hashing
-- [ ] Real password-reset workflow
+- [ ] Secure password hashing
+- [ ] Real password-reset system
 - [ ] Email verification
 - [ ] Password visibility toggle
-- [ ] Login attempt rate limiting
-- [ ] Remember-me persistence
+- [ ] Login attempt protection
+- [ ] Persistent Remember Me
 - [ ] User dashboard
-- [ ] Settings panel
+- [ ] Application settings
 - [ ] Custom application icon
-- [ ] Windows executable build
+- [ ] Windows executable
 - [ ] Linux package
-- [ ] Improved accessibility
 
 ---
 
-🔒 Security
+🔒 Security Notes
 
-Pullang is currently a GUI demonstration project.
+Pullang is currently a frontend-style desktop authentication demonstration.
 
-For a production authentication application:
+For production authentication:
 
 - Never store plaintext passwords.
-- Use strong password hashing such as Argon2id or bcrypt.
-- Validate credentials on the server/backend.
-- Use secure session management.
-- Protect authentication APIs.
+- Use secure password hashing such as Argon2id or bcrypt.
+- Validate credentials through a trusted backend.
+- Use secure session handling.
 - Implement rate limiting.
-- Avoid placing secrets directly inside the client application.
-
----
-
-📸 Screenshots
-
-Add screenshots to the repository and display them here:
-
-![Pullang Login](assets/pullang-login.png)
-
-Recommended structure:
-
-Pullang/
-│
-├── assets/
-│   └── pullang-login.png
-│
-├── main.py
-├── README.md
-└── LICENSE
+- Protect authentication APIs.
+- Never hard-code secrets into the application.
 
 ---
 
 🤝 Contributing
 
-Contributions and UI improvements are welcome.
+Contributions, bug fixes and UI improvements are welcome.
 
-Contribution workflow
+Basic workflow
 
 git clone https://github.com/Rg100152/Pullang.git
 cd Pullang
 
-Create your changes, test the application and submit a pull request.
+Make your changes, test the application and submit a pull request.
 
 ---
 
-📄 License
+📜 License
 
 Pullang is distributed under the license included in this repository.
 
-See the "LICENSE" file for the complete terms.
+See the "LICENSE" file for the complete license terms.
 
 ---
 
@@ -304,12 +282,12 @@ GitHub: "@Rg100152" (https://github.com/Rg100152)
 
 ⭐ Support
 
-If you find Pullang useful or like the interface, consider giving the repository a ⭐.
+If you like Pullang, consider giving the repository a ⭐ on GitHub.
 
-<p align="center">🔐 Pullang
+<p align="center">🔐 PULLANG
 
-Python • Tkinter • Desktop GUI • Modern UI
+Python • Tkinter • Desktop GUI
 
 </p><p align="center">
   <sub>© 2026 Raj Gautam</sub>
-</p><img width="525" height="394" alt="image" src="https://github.com/user-attachments/assets/e257c732-945e-494a-946b-1688db1fd1a0" />
+</p><img width="525" height="394" alt="image" src="https://github.com/user-attachments/assets/c7785feb-fb4f-4c15-9302-cd5a12b321a5" />
